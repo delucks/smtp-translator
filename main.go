@@ -38,8 +38,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/delucks/smtpd"
 	"github.com/gregdel/pushover"
-	"github.com/mhale/smtpd"
 )
 
 // An Envelope represents an email that is finalized, parsed, and ready for
