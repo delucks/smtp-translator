@@ -206,7 +206,7 @@ func parseEmail(addr string) (user string, dom string) {
 }
 
 func main() {
-	errl := log.New(os.Stderr, "", 0)
+	errl := log.New(os.Stdout, "", 0)
 	c, err := getConfig()
 	if err != nil {
 		errl.Println(err)
